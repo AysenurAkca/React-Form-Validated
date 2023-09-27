@@ -1,0 +1,7 @@
+.TodoList form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+    margin: 20px auto;
+}
