@@ -1,4 +1,5 @@
 import './App.css';
+import Quotes from './Quotes';
 import SearchBar from './SearchBar';
 import TodoListPage from './TodoListPage';
 import UsernameForm from './UsernameForm';
@@ -6,7 +7,8 @@ import UsernameForm from './UsernameForm';
 function App() {
   return (
     <div className="App">
-      <TodoListPage/>
+      <Quotes/>
+      {/* <TodoListPage/> */}
       {/* <SearchBar/> */}
       {/* <UsernameForm/> */}
     </div>
